@@ -1,0 +1,31 @@
+# 构建产物
+build/
+build-*/
+build_release/
+*.exe
+*.o
+*.obj
+
+# 发布包与打包产物(体积大,不入库)
+friend-release/
+release-package/
+*.zip
+
+# 运行时临时目录
+_tmp/
+
+# 依赖与模型(体积大,不入库)
+third_party/
+models/
+runtime/
+
+# 本地配置覆盖
+config.local.json
+
+# IDE / 系统
+.vscode/
+.idea/
+.cache/
+*.user
+CMakeUserPresets.json
+/.trae/
