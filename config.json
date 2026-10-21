@@ -1,0 +1,24 @@
+{
+  "resource_root": "",
+  "vosk": {
+    "model_dir": "",
+    "header": "",
+    "dll": ""
+  },
+  "piper": {
+    "exe": "",
+    "voice": "",
+    "length_scale": 0.95,
+    "noise_scale": 0.8,
+    "noise_w": 1.0,
+    "sentence_silence": 0.3
+  },
+  "llm": {
+    "base_url": "https://api.deepseek.com/v1",
+    "api_key": "",
+    "model": "deepseek-v4-flash"
+  },
+  "audio": {
+    "sample_rate": 16000
+  }
+}
